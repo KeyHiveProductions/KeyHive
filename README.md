@@ -25,16 +25,13 @@ KeyHive is open-source for transparency, but distribution is controlled to maint
 
 - Provides REST APIs for:
 
-- - Login, registration, and token verification
-
-- - Role assignment and user management
-
-- - Session management
-
-- - Maintains file-based storage for all users and sessions (users.json, sessions.json).
-
-- - Optional GUI displays server info (name, super-admins, status).
-
+  - Login, registration, and token verification
+  - Role assignment and user management
+  - Session management
+  - Maintains file-based storage for all users and sessions (users.json, sessions.json).
+    
+- Optional GUI displays server info (name, super-admins, status).
+  
 - Can run as a startup task or background service, ensuring continuous operation.
 
 #### 2. Dashboard Application
