@@ -28,7 +28,8 @@ KeyHive is open-source for transparency, but distribution is controlled to maint
   - Login, registration, and token verification
   - Role assignment and user management
   - Session management
-  - Maintains file-based storage for all users and sessions (users.json, sessions.json).
+    
+- Maintains file-based storage for all users and sessions (users.json, sessions.json).
     
 - Optional GUI displays server info (name, super-admins, status).
   
@@ -36,33 +37,35 @@ KeyHive is open-source for transparency, but distribution is controlled to maint
 
 #### 2. Dashboard Application
 
-Runs on any machine with network access to your KeyHive servers.
+- Runs on any machine with network access to your KeyHive servers.
 
-Provides a web-based interface (HTML/CSS/JS) for managing all servers you have access to.
+- Provides a web-based interface (HTML/CSS/JS) for managing all servers you have access to.
 
-Features:
+---
 
-Login tied to your account for secure access.
+### Features
 
-Server discovery and selection to manage multiple servers.
+- Login tied to your account for secure access.
 
-Full user and session management.
+- Server discovery and selection to manage multiple servers.
 
-Role assignment, account activation/deactivation, and session revocation.
+- Full user and session management.
 
-Acts as a super-admin panel, providing centralized control over multiple server instances.
+- Role assignment, account activation/deactivation, and session revocation.
 
-Security Highlights
+- Acts as a super-admin panel, providing centralized control over multiple server instances.
 
-Multi-layer encryption: Argon2 for passwords, AES, Sodium, HMAC, and AEAD for secure storage and communication.
+- Security Highlights
 
-Captcha integration to prevent automated attacks.
+- Multi-layer encryption: Argon2 for passwords, AES, Sodium, HMAC, and AEAD for secure storage and communication.
 
-HTTPS and JSON APIs ensure secure server–dashboard communication.
+- Captcha integration to prevent automated attacks.
 
-File-based persistence keeps all data under server owner control.
+- HTTPS and JSON APIs ensure secure server–dashboard communication.
 
-How It Works
+- File-based persistence keeps all data under server owner control.
+
+### How It Works
 
 Install the KeyHive server on your machine.
 
