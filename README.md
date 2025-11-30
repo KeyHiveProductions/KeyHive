@@ -1,5 +1,4 @@
 # KeyHive
-----
 
 KeyHive is a powerful, open-source authentication system designed to run securely on any server while providing a centralized, cross-machine dashboard for administration. It is built to give full control over user management, roles, and sessions while maintaining strong security and flexibility.
 
